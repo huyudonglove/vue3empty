@@ -1,20 +1,9 @@
 <template>
-  <a-layout class="layout">
-    <Header />
-    <a-layout-content style="padding: 0 50px">
-      <BreadCrumbVue/>
-      <div :style="{ background: '#fff', padding: '24px', minHeight: '280px' }">
-        <router-view />
-      </div>
-    </a-layout-content>
-    <Footer />
-  </a-layout>
+  <div>8888888888</div>
+  <router-view></router-view>
 </template>
 
 <script setup lang="ts">
-import Header from "./components/Header.vue"
-import BreadCrumbVue from "./components/BreadCrumb.vue";
-import Footer from "./components/Footer.vue"
 </script>
 
 <style>
@@ -37,7 +26,7 @@ import Footer from "./components/Footer.vue"
   margin: 16px 0 16px 24px;
 }
 
-[data-theme='dark'] .site-layout-content {
+[data-theme="dark"] .site-layout-content {
   background: #141414;
 }
 </style>

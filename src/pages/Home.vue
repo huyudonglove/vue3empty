@@ -1,6 +1,4 @@
-<template>
-    <a-typography-title>欢迎使用</a-typography-title>
-</template>
+<template>欢迎使用</template>
 
 <script setup lang="ts">
 </script>
